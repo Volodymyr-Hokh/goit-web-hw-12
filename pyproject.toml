@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "goit-web-hw-11"
+name = "goit-web-hw-12"
 version = "0.1.0"
 description = ""
 authors = ["Volodymyr-Hokh <132125735+Volodymyr-Hokh@users.noreply.github.com>"]
@@ -8,11 +8,15 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.104.1"
-uvicorn = {extras = ["standard"], version = "^0.23.2"}
-psycopg2 = "^2.9.9"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
 sqlalchemy = "^2.0.23"
 alembic = "^1.12.1"
-pydantic = {extras = ["email"], version = "^2.4.2"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.6"
+psycopg2 = "^2.9.9"
+libgravatar = "^1.0.4"
+pydantic = {extras = ["email"], version = "^2.5.0"}
 
 
 [build-system]
